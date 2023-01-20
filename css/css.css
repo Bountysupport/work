@@ -1,0 +1,855 @@
+body {
+    background: #554537;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.header {
+    background: url("../img/Background-photo.png") no-repeat center;
+    background-size: cover;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    align-items: center;
+}
+.header_nav_link {
+    list-style-type: none;
+    font-family: inter;
+    font-size: 24px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.header_nav_link a:hover {
+    color: yellow;
+}
+
+.header_nav_icon {
+    display: flex;
+    max-width: 94px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1208px;
+    padding: 15px;
+}
+
+.header_textimg {
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 128px;
+    margin-top: 298px;
+}
+
+.header_textimg h1 {
+    color: #EADD46;
+}
+
+.header_textimg span {
+    color: white;
+}
+
+.size_pluses {
+    max-width: 237px;
+    width: 100%;
+    text-align: center;
+}
+
+.header_pluses-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 177px;
+    padding-bottom: 32px;
+    height: 110px;
+}
+
+.header_pluses-items img {
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.header_pluses-items p {
+    margin-top: 22.4px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFF9F1;
+}
+
+.hover_program:hover {
+    color: #EADD46;
+    border: 2px solid #EADD46;
+}
+
+.program_img-gym {
+    background: url('../img/gym.png')  center;
+}
+
+.program_img-personal-training {
+    background: url('../img/Personal\ Training.png') center;
+}
+
+.program_img-group-training {
+    background: url('../img/Group\ Training.png') center;
+}
+
+.program_img-yoga {
+    background: url('../img/yoga.png') center;
+}
+
+.program_img-boxing {
+    background: url('../img/boxing.png') center;
+}
+
+.program_img-crossfit {
+    background: url('../img/crossfit.png') center;
+}
+
+.program_img-crossfit,
+.program_img-boxing,
+.program_img-yoga,
+.program_img-group-training,
+.program_img-personal-training,
+.program_img-gym {
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFF9F1;
+
+}
+
+.Fitness-Club {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFF9F1;
+    margin-top: 81px;
+}
+
+.Fitness-Club span {
+    color: #EADD46;
+    margin-left: 10px;
+}
+
+.programs-basic_row {
+    text-shadow: #101213 2px 1px ;
+    text-align: center;
+    columns: 3;
+}
+
+.links_programs {
+    max-width: 330px;
+    width: 100%;
+    height: 68px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 24px;
+    background-color: #EADD46;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.links_programs a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #101213;
+}
+
+.block_text_where {
+    margin-top: 100px;
+}
+
+.block_text_where p {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFF9F1;
+}
+
+.block_text_where span {
+    color: #EADD46;
+    margin-right: 10px;
+}
+
+.basic-block_photos_gym {
+    margin-top: 32px;
+    columns: 3;
+    gap: 10px;
+}
+
+.basic-block_photos_gym p {
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFF9F1;
+
+}
+
+.basic-block_photos_gym h2 {
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 32px;
+    color: #EADD46;
+
+}
+
+.img_info_block_1 {
+    background: url('../img/1.png');
+}
+
+.img_info_block_2 {
+    background: url('../img/2.png');
+}
+
+.img_info_block_3 {
+    background: url('../img/3.png');
+}
+
+.img_info_block_4 {
+    background: url('../img/4.png');
+}
+
+.img_info_block_5 {
+    background: url('../img/5.png');
+}
+
+.img_info_block_6 {
+    background: url('../img/6.png');
+}
+
+.img_info_block_1,
+.img_info_block_2,
+.img_info_block_3,
+.img_info_block_4,
+.img_info_block_5,
+.img_info_block_6 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text_info_block p {
+    padding-top: 8px;
+}
+
+.main_gift-certificate {
+    margin-top: 100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 292px;
+    background-color: #EADD46;
+    overflow: hidden;
+}
+
+.image_certificate-content img {
+    position: relative;
+    top: 135px;
+    object-fit: cover;
+}
+
+.gift-certificate-content {
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1163px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 299px;
+}
+
+
+.info_certificate-content p:nth-child(1) {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 64px;
+    color: #101213;
+}
+
+.info_certificate-content p:nth-child(2) {
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 64px;
+    color: #D51515;
+    margin: 6px 0px 6px 0px;
+}
+
+.info_certificate-content p:nth-child(3) {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 36px;
+    color: #101213;
+}
+
+.certificate_block_info_button {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 717px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info_certificate-content_adaptive {
+    margin: 0 auto;
+}
+
+.button_certificate_content_adaptiv {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.button-certificate-content a {
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 24px;
+    color: #EADD46;
+    align-items: center;
+    background: #101213;
+    display: flex;
+    width: 242px;
+    height: 68px;
+    justify-content: center;
+}
+
+.news-ipsum-clubs_info_name {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.news-ipsum-clubs-cards p {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFF9F1;
+}
+
+.card1_img {
+    text-align: center;
+    background: url('../img/4.png') center;
+    object-fit: cover;
+}
+
+.card2_img {
+    text-align: center;
+    background: url('../img/5.png') center;
+    object-fit: cover;
+}
+
+.card3_img {
+    background: url('../img/3.png') center;
+    object-fit: cover;
+    text-align: center;
+}
+
+.news-ipsum-clubs-cards span {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 32px;
+    color: #EADD46;
+}
+
+
+.news-ipsum-clubs-cards {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.size-program {
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 384px;
+    height: 224px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.txt_card {
+    padding: 10px 0px 0px 0px;
+    max-width: 384px;
+    width: 100%;
+    background-color: #101213;
+    min-height: 90px;
+    padding-bottom: 10px;
+}
+
+.txt_card p:nth-child(2) {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(234, 221, 70, 0.7);
+    margin: 16px 0px 0px 16px;
+}
+
+.txt_card p:nth-child(1) {
+    margin: 0px 16px 0px 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF9F1;
+}
+
+.news-ipsum-clubs_info_name {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.news-ipsum-clubs_info_name p {
+    color: #FFF9F1;
+}
+
+.news-ipsum-clubs_info_name span {
+    color: #EADD46;
+}
+
+.link_more {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.link_more a {
+    background-color: #EADD46;
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 24px;
+    color: #101213;
+    padding: 16px 64px 16px 64px;
+    display: inline-block;
+}
+
+
+.title_map_block {
+    margin: 100px 0px 32px 0px;
+}
+
+.title_map_block span {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    color: #EADD46;
+}
+
+.title_map_block p {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+}
+
+.map_content {
+    display: flex;
+}
+
+.info_map_content {
+    background-color: black;
+    max-width: 309px;
+    padding-left: 14px;
+    padding-top: 16px;
+    max-height: 451px;
+}
+
+.info_map_content p {
+    background: url('../img/svg/mark.svg') left no-repeat;
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF9F1;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 140px;
+    height: 534px;
+    width: 100%;
+    background-color: #101213;
+}
+
+.text_logo_footer {
+    width: 297px;
+}
+
+.useful_links_footer p,
+.contact_us_footer p {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.first_footer_content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.text_logo_footer h2 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFF9F1;
+    margin-bottom: 16px;
+}
+
+.useful_links_footer h2,
+.contact_us_footer h2 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFF9F1;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.text_All_Rights_Reserved,
+.footer_content p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF9F1;
+}
+
+.second_footer_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.svg_icon_content {
+    display: flex;
+}
+
+.svg_icon_content img {
+    margin-right: 15px;
+}
+
+.contact_us_footer h3 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFF9F1;
+    margin: 20px 0px 6px 0px;
+}
+
+.news-ipsum-clubs_info {
+    z-index: 100;
+}
+
+.contact_us_footer p:nth-child(8),
+.contact_us_footer p:nth-child(9),
+.contact_us_footer p:nth-child(10),
+.contact_us_footer p:nth-child(11),
+.contact_us_footer p:nth-child(12),
+.contact_us_footer p:nth-child(13) {
+    background: url('../img/svg/mark.svg')no-repeat;
+    padding-left: 20px;
+}
+
+.info_certificate-content p:nth-child(2){
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#map {
+    width: 100%;
+    height: 100%;
+}
+.burger__btn{
+    display: none;
+}
+@media (max-width: 1000px) {
+    .header_pluses-items {
+        margin-top: 266px;
+    }
+
+    .header_textimg {
+        margin-top: 305px;
+    }
+
+    .header_pluses-items-row {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .header_textimg {
+        font-size: 96px;
+    }
+
+    .info_certificate-content p:nth-child(2),
+    .info_certificate-content p:nth-child(1) {
+        font-size: 48px;
+    }
+
+    .info_certificate-content p:nth-child(3) {
+        font-size: 38px;
+    }
+
+    .programs_row {
+        max-width: 308px;
+        height: 224px;
+    }
+}
+
+@media (max-width: 744px) {
+    #map{
+        padding: 15px;
+    }
+    .map_content {
+        display: block;
+        background: black;
+    }
+    .burger__btn{
+        display: block;
+        position: relative;
+        width: 30px;
+        z-index: 3;
+    }
+    .burger__btn span{
+        position: absolute;
+        background-color: #FFF9F1;
+        height: 2px;
+        width: 100%;
+    }
+    
+    .burger__btn::before,
+    .burger__btn::after{
+        content: '';
+        position: absolute;
+        background-color: #FFF9F1;
+        height: 2px;
+        width: 30px;   
+    }
+    .burger__btn::before{
+        bottom: 9px;
+    }
+    .burger__btn::after{
+        top: 11px;
+    }
+    .nav_container{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        transition: 0.2s;
+        left: 0;
+        bottom: 0;
+        background-color: #D51515;
+    }
+    .nav_container.active{
+        top: 0;
+    }
+    .header_nav_link{
+        list-style-type: none;
+        flex-direction: column;
+        text-align: center;
+        margin: 70px 0px 0px 0px;
+    }
+    .header_nav_link li{
+        margin-top: 20px;
+    }
+    .header_nav_icon{
+        display: none;
+    }
+
+    .text_info_block p {
+        font-size: 16px;
+    }
+
+    .links_programs {
+        font-size: 20px;
+    }
+
+    .header_pluses-items-row p {
+        font-size: 16px;
+    }
+
+    .header_pluses-items {
+        margin-top: 143px;
+    }
+
+    .header_textimg {
+        margin-top: 133px;
+    }
+
+    .header_pluses-items-row {
+        max-width: 156.25px;
+        width: 100%;
+    }
+
+    .news-ipsum-clubs-cards {
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .certificate_block_info_button {
+        max-width: 269px;
+        width: 100%;
+    }
+
+    .main_gift-certificate {
+        height: 354px;
+    }
+    .header_textimg {
+        font-size: 64px;
+    }
+
+    .title_map_block p,
+    .news-ipsum-clubs_info_name,
+    .block_text_where p,
+    .Fitness-Club {
+        font-size: 32px;
+
+    }
+    .Fitness-Club {}
+}
+
+@media (max-width: 500px) {
+    .text_logo_footer{display: none;}
+}
+
+@media (max-width: 480px) {
+    .button-certificate-content a {
+    width: 159px;
+    height: 46px;
+    }
+    .info_certificate-content p:nth-child(1),
+    .info_certificate-content p:nth-child(3){
+        font-size: 36px;
+    }
+    .info_certificate-content p:nth-child(2){
+        font-size: 48px;
+    }
+    .header_pluses-items {
+        margin-top: 292px;
+        margin-bottom: 80px;
+    }
+
+    .header_textimg {
+        margin-top: 48px;
+    }
+
+    .header_pluses-items {
+        flex-wrap: wrap;
+    }
+
+    .header_pluses-items-row {
+        width: 210px;
+
+    }
+
+    .program_img-group-training,
+    .program_img-boxing,
+    .program_img-personal-training,
+    .program_img-crossfit,
+    .program_img-yoga,
+    .program_img-gym,
+    .img_info_block_6,
+    .img_info_block_5,
+    .img_info_block_4,
+    .img_info_block_3,
+    .img_info_block_2,
+    .img_info_block_1 {
+        width: 45%;
+    }
+
+    .basic-block_photos_gym,
+    .programs-basic_row {
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .programs_row {
+        width: 45%;
+    }
+
+    .text_info_block h2 {
+        font-size: 24px;
+    }
+
+    .card3_img p,
+    .program_img-group-training p {
+        font-size: 24px;
+    }
+
+    
+
+    .header_textimg {
+        font-size: 64px;
+    }
+
+    .block_text_where p,
+    .Fitness-Club {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 360px) {
+    .image_certificate-content img{
+        top: 46px;
+        height: 316px;
+        width: 154px;
+    }
+    .img_info_block_6,
+    .img_info_block_5,
+    .img_info_block_4,
+    .img_info_block_3,
+    .img_info_block_2,
+    .img_info_block_1{
+        height: 88px;
+        max-width: 328px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .basic-block_photos_gym p{
+        font-size: 14px;
+    }
+    .basic-block_photos_gym h2{
+        font-size: 16px; 
+        display: block;
+        flex-wrap: nowrap;
+        columns: 1;
+    }
+    .header_pluses-items {
+        margin-top: 318px;
+        margin-bottom: 80px;
+    }
+
+    .header_textimg {
+        margin-top: 64px;
+    }
+
+    .header_textimg {
+        font-size: 48px;
+    }
+}
