@@ -1,0 +1,791 @@
+body {
+    background: #554537;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.header {
+    background: url("../img/Background-photo.png") no-repeat center;
+    background-size: cover;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    align-items: center;
+}
+.header_nav_link {
+    list-style-type: none;
+    font-family: inter;
+    font-size: 24px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.header_nav_link a:hover {
+    color: yellow;
+}
+
+.header_nav_icon {
+    display: flex;
+    max-width: 94px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.basic-block_photos_gym{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card_img{
+    flex: 1 32.3333%;
+    position: relative;
+}
+.card_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img_info_block{
+    flex: 1 32.3333%;
+    position: relative;
+}
+.img_info_block img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img_info_block::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(3, 3, 3, .3);
+}
+.img_info_block h2{
+    position: absolute;
+     color: #fff;
+     top: 30%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 2;
+}
+.card_img p{
+    position: absolute;
+     color: #fff;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 2;
+     width: 100%;
+     text-align: center;
+}
+.img_info_block p{
+    font-size: calc(24px + 16 * (100vw / 1280));
+    position: absolute;
+     color: #fff;
+     top: 55%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 2;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1208px;
+    padding: 8px;
+}
+
+.programs-basic_row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+ }
+ .program_img:hover{
+    border: 3px solid yellow;
+ }
+ .program_img p:hover{
+    color: yellow;
+ }
+ .program_img{
+     border-radius: 5px;
+     flex: 1 32.3333%;
+     position: relative;
+ }
+ .program_img img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ /* тень на фото */
+ .program_img::after{
+     position: absolute;
+     content: '';
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(3, 3, 3, .3);
+ }
+ /* тень на фото */
+ .program_img p{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+     position: absolute;
+     color: #fff;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 2;
+ }
+
+
+.header_textimg {
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 128px;
+    margin-top: 298px;
+}
+
+.header_textimg h1 {
+    color: #EADD46;
+}
+
+.header_textimg span {
+    color: white;
+}
+
+.size_pluses {
+    max-width: 237px;
+    width: 100%;
+    text-align: center;
+}
+
+.header_pluses-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 177px;
+    padding-bottom: 32px;
+    height: 110px;
+}
+
+.header_pluses-items img {
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.header_pluses-items p {
+    margin-top: 22.4px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFF9F1;
+}
+
+.Fitness-Club {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFF9F1;
+    margin-top: 81px;
+}
+
+.Fitness-Club span {
+    color: #EADD46;
+    margin-left: 10px;
+}
+
+.links_programs {
+    max-width: 330px;
+    width: 100%;
+    height: 68px;
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 24px;
+    background-color: #EADD46;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.links_programs a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #101213;
+}
+
+.block_text_where {
+    margin-top: 100px;
+}
+
+.block_text_where p {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFF9F1;
+}
+
+.block_text_where span {
+    color: #EADD46;
+    margin-right: 10px;
+}
+
+.text_info_block p {
+    padding-top: 8px;
+}
+
+.main_gift-certificate {
+    margin-top: 100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 292px;
+    background-color: #EADD46;
+    overflow: hidden;
+}
+
+.image_certificate-content img {
+    position: relative;
+    top: 135px;
+    object-fit: cover;
+}
+
+.gift-certificate-content {
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1163px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 299px;
+}
+
+
+.info_certificate-content p:nth-child(1) {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 64px;
+    color: #101213;
+}
+
+.info_certificate-content p:nth-child(2) {
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 64px;
+    color: #D51515;
+    margin: 6px 0px 6px 0px;
+}
+
+.info_certificate-content p:nth-child(3) {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 36px;
+    color: #101213;
+}
+
+.certificate_block_info_button {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 717px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info_certificate-content_adaptive {
+    margin: 0 auto;
+}
+
+.button_certificate_content_adaptiv {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.button-certificate-content a {
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 24px;
+    color: #EADD46;
+    align-items: center;
+    background: #101213;
+    display: flex;
+    width: 242px;
+    height: 68px;
+    justify-content: center;
+}
+
+.news-ipsum-clubs_info_name {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.card_img p {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFF9F1;
+}
+
+.news-ipsum-clubs-cards span {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 32px;
+    color: #EADD46;
+}
+
+.news-ipsum-clubs-cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.program_img p{
+    width: 100%;
+    text-align: center;
+    font-family: 'Kanit';
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #FFF9F1;
+}
+.img_info_block h2{
+    width: 100%;
+    font-family: 'Kanit';
+    font-size: calc(12px + 16 * (100vw / 1280));
+    text-align: center;
+    color: #EADD46;
+}
+.img_info_block p{
+    width: 100%;
+    font-family: 'Kanit';
+    font-size: 20px;
+    text-align: center;
+    color: #FFF9F1;
+}
+
+.news-ipsum-clubs_info_name {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.news-ipsum-clubs_info_name p {
+    color: #FFF9F1;
+}
+
+.news-ipsum-clubs_info_name span {
+    color: #EADD46;
+}
+
+.link_more {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.link_more a {
+    background-color: #EADD46;
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 24px;
+    color: #101213;
+    padding: 16px 64px 16px 64px;
+    display: inline-block;
+}
+
+
+.title_map_block {
+    margin: 100px 0px 32px 0px;
+}
+
+.title_map_block span {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    color: #EADD46;
+}
+
+.title_map_block p {
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+}
+
+.map_content {
+    display: flex;
+}
+
+.info_map_content {
+    background-color: black;
+    max-width: 309px;
+    padding-left: 14px;
+    padding-top: 16px;
+    max-height: 451px;
+}
+
+.info_map_content p {
+    background: url('../img/svg/mark.svg') left no-repeat;
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF9F1;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 140px;
+    height: 534px;
+    width: 100%;
+    background-color: #101213;
+}
+
+.text_logo_footer {
+    width: 297px;
+}
+
+.useful_links_footer p,
+.contact_us_footer p {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.first_footer_content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.text_logo_footer h2 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFF9F1;
+    margin-bottom: 16px;
+}
+
+.useful_links_footer h2,
+.contact_us_footer h2 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFF9F1;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.text_All_Rights_Reserved,
+.footer_content p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF9F1;
+}
+
+.second_footer_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.svg_icon_content {
+    display: flex;
+}
+
+.svg_icon_content img {
+    margin-right: 15px;
+}
+
+.contact_us_footer h3 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFF9F1;
+    margin: 20px 0px 6px 0px;
+}
+
+.news-ipsum-clubs_info {
+    z-index: 100;
+}
+
+.contact_us_footer p:nth-child(8),
+.contact_us_footer p:nth-child(9),
+.contact_us_footer p:nth-child(10),
+.contact_us_footer p:nth-child(11),
+.contact_us_footer p:nth-child(12),
+.contact_us_footer p:nth-child(13) {
+    background: url('../img/svg/mark.svg')no-repeat;
+    padding-left: 20px;
+}
+
+.info_certificate-content p:nth-child(2){
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#map {
+    width: 100%;
+    height: 100%;
+}
+.burger__btn{
+    display: none;
+}
+.txt_card{
+    background-color: #101213;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Inter';
+}
+.txt_card p:nth-child(2){
+    margin-top: 15px;
+}
+@media (max-width: 1000px) {
+    .header_pluses-items {
+        margin-top: 266px;
+    }
+
+    .header_textimg {
+        margin-top: 305px;
+    }
+
+    .header_pluses-items-row {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .header_textimg {
+        font-size: 96px;
+    }
+
+    .info_certificate-content p:nth-child(2),
+    .info_certificate-content p:nth-child(1) {
+        font-size: 48px;
+    }
+
+    .info_certificate-content p:nth-child(3) {
+        font-size: 38px;
+    }
+
+    .programs_row {
+        max-width: 308px;
+        height: 224px;
+    }
+}
+
+@media (max-width: 744px) {
+    #map{
+        padding: 15px;
+    }
+    .map_content {
+        display: block;
+        background: black;
+    }
+    .burger__btn{
+        display: block;
+        position: relative;
+        width: 30px;
+        z-index: 3;
+    }
+    .burger__btn span{
+        position: absolute;
+        background-color: #FFF9F1;
+        height: 2px;
+        width: 100%;
+    }
+    
+    .burger__btn::before,
+    .burger__btn::after{
+        content: '';
+        position: absolute;
+        background-color: #FFF9F1;
+        height: 2px;
+        width: 30px;   
+    }
+    .burger__btn::before{
+        bottom: 9px;
+    }
+    .burger__btn::after{
+        top: 11px;
+    }
+    .nav_container{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        transition: 0.2s;
+        left: 0;
+        bottom: 0;
+        background-color: #D51515;
+    }
+    .nav_container.active{
+        top: 0;
+    }
+    .header_nav_link{
+        list-style-type: none;
+        flex-direction: column;
+        text-align: center;
+        margin: 70px 0px 0px 0px;
+    }
+    .header_nav_link li{
+        margin-top: 20px;
+    }
+    .header_nav_icon{
+        display: none;
+    }
+
+    .text_info_block p {
+        font-size: 16px;
+    }
+
+    .links_programs {
+        font-size: 20px;
+    }
+
+    .header_pluses-items-row p {
+        font-size: 16px;
+    }
+
+    .header_pluses-items {
+        margin-top: 143px;
+    }
+
+    .header_textimg {
+        margin-top: 133px;
+    }
+
+    .header_pluses-items-row {
+        max-width: 156.25px;
+        width: 100%;
+    }
+
+    .news-ipsum-clubs-cards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .certificate_block_info_button {
+        max-width: 269px;
+        width: 100%;
+    }
+
+    .main_gift-certificate {
+        height: 354px;
+    }
+    .header_textimg {
+        font-size: 64px;
+    }
+
+    .title_map_block p,
+    .news-ipsum-clubs_info_name,
+    .block_text_where p,
+    .Fitness-Club {
+        font-size: 32px;
+
+    }
+    .Fitness-Club {}
+}
+
+@media (max-width: 500px) {
+    .text_logo_footer{display: none;}
+}
+
+@media (max-width: 480px) {
+    .program_img p{
+        font-size: 28px;
+    }
+    .img_info_block p{
+        top: 70%;
+    }
+    .button-certificate-content a {
+    width: 159px;
+    height: 46px;
+    }
+    .info_certificate-content p:nth-child(1),
+    .info_certificate-content p:nth-child(3){
+        font-size: 36px;
+    }
+    .info_certificate-content p:nth-child(2){
+        font-size: 48px;
+    }
+    .header_pluses-items {
+        margin-top: 292px;
+        margin-bottom: 80px;
+    }
+
+    .header_textimg {
+        margin-top: 48px;
+    }
+
+    .header_pluses-items {
+        flex-wrap: wrap;
+    }
+
+    .header_pluses-items-row {
+        width: 210px;
+    }
+    .programs_row {
+        width: 45%;
+    }
+
+    .text_info_block h2 {
+        font-size: 24px;
+    }
+    .header_textimg {
+        font-size: 64px;
+    }
+
+    .block_text_where p,
+    .Fitness-Club {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 360px) {
+    .program_img p{
+        font-size: 18px;
+    }
+    .img_info_block p,
+    .img_info_block h2{
+        font-size: 13px;
+    }
+    .image_certificate-content img{
+        top: 46px;
+        height: 316px;
+        width: 154px;
+    }
+    .header_pluses-items {
+        margin-top: 318px;
+        margin-bottom: 80px;
+    }
+
+    .header_textimg {
+        margin-top: 64px;
+    }
+
+    .header_textimg {
+        font-size: 48px;
+    }
+}
