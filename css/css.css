@@ -764,6 +764,9 @@ body {
 }
 
 @media (max-width: 360px) {
+    .header_pluses-items-row{
+        width: 130px;
+    }
     .program_img p{
         font-size: 18px;
     }
