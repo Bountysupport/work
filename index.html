@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonder WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__content">
+            <div class="logo__wrapper">
+                <a href="#" class="logo-link"><img src="./images/logo.svg" alt="Logo" class="logo"></a>
+                <div class="logo-text">
+                    <a href="#" class="logo-text__sonder">SONDER</a>
+                    <a href="#" class="logo-text__web-studio">web studio</a>
+                </div>
+            </div>
+            <div class="header__menu">
+                <div class="header__menu-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__list-item"><a href="#" class="nav__list-link start-btn">Помощь</a><img
+                                src="./images/header/messages.svg" alt="Messages"></li>
+                        <li class="nav__list-item"><a href="#" class="nav__list-link start-btn">Цены</a><img
+                                src="./images/header/check-mark.svg" alt="Check mark"></li>
+                        <li class="nav__list-item"><a href="#" class="nav__list-link nav__list-btn start-btn">Начать</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__image">
+                    <p class="hero__overlay"><img src="./images/hero/data.svg" alt="Data">Больше "тёплых"<br>клиентов
+                    </p>
+                    <p class="hero__overlay"><img src="./images/hero/airdrop.svg" alt="Airdrop">Контроль <br>
+                        сарафанного радио</p>
+                    <img src="./images/hero/hero.svg" alt="Hero">
+                </div>
+                <div class="hero__text">
+                    <h1 class="hero__title">Чат-бот с реферальной системой</h1>
+                    <p class="hero__subtitle">Увеличение продаж за счёт<br> реферальной системы</p>
+                    <a href="#" class="hero__start-btn purple-btn start-btn">Начать</a>
+                    <a href="#target-element" class="hero__more-btn" id='more'>Подробнее</a> <br>
+                    <a href="#" class="hero__more-link start-btn">Есть вопросы?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="benefits" id="target-element">
+        <div class="container">
+            <div class="benefits__content">
+                <h2 class="benefits__title">Как работает чат-бот?</h2>
+                <p class="benefits__subtitle">основные преимущества</p>
+                <div class="benefits__grid">
+                    <div class="benefits__benefit-wrapper">
+                        <div class="benefits__benefit">
+                            <h3 class="benefits__benefit-title"><img src="./images/benefits/data.svg"
+                                                                     alt="Data">Система поощрений</h3>
+                            <p class="benefits__benefit-desc">Увеличение клиентов за счёт поощрений для тех, кто
+                                рекомендует ваш товар или услугу своим друзьям и знакомым.</p>
+                        </div>
+                    </div>
+                    <div class="benefits__benefit-wrapper">
+                        <div class="benefits__benefit">
+                            <h3 class="benefits__benefit-title"><img src="./images/benefits/airdrop.svg"
+                                                                     alt="Airdrop">Контроль сарафанного радио</h3>
+                            <p class="benefits__benefit-desc">Возможность получать контакты потенциальных клиентов
+                                благодаря бонусам текущим клиентам в обмен на</p>
+                        </div>
+                    </div>
+                    <div class="benefits__benefit-wrapper">
+                        <div class="benefits__benefit">
+                            <h3 class="benefits__benefit-title"><img src="./images/benefits/telegram.svg"
+                                                                     alt="Airdrop">Интеграция с telegram</h3>
+                            <p class="benefits__benefit-desc">Возможность получать контакты потенциальных клиентов
+                                благодаря бонусам текущим клиентам в обмен на</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="possibilities">
+        <div class="container">
+            <div class="possibilities__content">
+                <div class="possibilities__text">
+                    <h4 class="possibilities__title">Чат-боты помогают решать бизнес-задачи</h4>
+                    <p class="possibilities__subtitle">Помимо автоматизации процессов</p>
+                    <div class="possibilities__grid">
+                        <p class="possibilities__possibility">Сокращают траты на службу поддержки и разгружают
+                            операторов</p>
+                        <p class="possibilities__possibility">Делают коммуникацию с клиентами более персонализированной
+                            и «человечной»</p>
+                        <p class="possibilities__possibility">Помогают собирать данные: контакты, отзывы и так далее</p>
+                    </div>
+                    <a href="#" class="possibilities__bid-btn purple-btn start-btn">Оформить заявку</a>
+                </div>
+                <div class="possibilities__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/possibilities/phone.png" alt="Phone"></div>
+                        <div class="swiper-slide"><img src="./images/possibilities/phone.png" alt="Phone"></div>
+                        <div class="swiper-slide"><img src="./images/possibilities/phone.png" alt="Phone"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class='slider__nav-wrapper'>
+                        <div class='possibilities__slider-prev'>
+                            <img src='./images/benefits/arrow-l.svg' alt=""/>
+                        </div>
+                        <div class="possibilities__slider-next">
+                            <img src='./images/benefits/arrow-r.svg' alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="start-modal">
+    <div class="start-modal__content" id='modalContent'>
+        <button class="start-modal__close-btn"><img src="./images/modal/x.svg" alt="X"></button>
+        <h5 class="start-modal__title">Оставьте заявку</h5>
+        <p class="start-modal__subtitle">на обратную связь</p>
+        <div class="start-modal__form">
+            <input type="text" placeholder="email@gmail.com" class="start-modal__input" id='emailInp'>
+            <input type="text" placeholder="+7 (***) *** **-**" class="start-modal__input tel-mask" id='telInp'>
+            <button class="start-modal__start-btn" id='modalBtn'>Отправить</button>
+        </div>
+    </div>
+    <div class="start-modal__content hidden" id='modalSend'>
+        <button class="start-modal__close-btn"><img src="./images/modal/x.svg" alt="X"></button>
+        <p>Спасибо! Мы скоро с вами свяжемся.</p>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>
